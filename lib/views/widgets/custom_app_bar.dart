@@ -6,9 +6,16 @@ class CustomAppBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.only(bottom: 16),
-      child: Row(
+    return Container(
+      padding: const EdgeInsets.only(left: 16, right: 16, bottom: 16, top: 50),
+      decoration: const BoxDecoration(
+        color: Color.fromARGB(255, 59, 27, 114),
+        borderRadius: BorderRadius.only(
+          bottomLeft: Radius.circular(16),
+          bottomRight: Radius.circular(16),
+        ),
+      ),
+      child: const Row(
         children: [
           Text(
             'Notes',
