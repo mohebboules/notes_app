@@ -4,3 +4,5 @@ part of 'read_notes_cubit.dart';
 sealed class ReadNotesCubitState {}
 
 final class ReadNotesCubitInitial extends ReadNotesCubitState {}
+
+final class ReadNotesCubitSuccess extends ReadNotesCubitState {}
