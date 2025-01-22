@@ -30,7 +30,7 @@ class NoteItem extends StatelessWidget {
           right: 16,
         ),
         decoration: BoxDecoration(
-          color: Color(note.color),
+          color: Color(note.color!),
           borderRadius: BorderRadius.circular(16),
         ),
         child: Column(
